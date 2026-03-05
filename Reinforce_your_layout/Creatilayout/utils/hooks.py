@@ -13,7 +13,6 @@ def save_model_hook(models, weights, output_dir,
 
     lora_dict = None
     for model in models:
-        # 这里用 isinstance 判断 transformer
         if isinstance(model, transformer_type):
             lora_dict = get_peft_state_fn(model)
         else:
@@ -38,7 +37,6 @@ def load_model_hook(models, input_dir,
             raise ValueError(f"unexpected model: {type(m)}")
 
     lora_state = pipeline_cls.lora_state_dict(input_dir)
-    # 只保留 transformer 的那部分
     ts = {k.replace("transformer.", ""): v
           for k, v in lora_state.items() if k.startswith("transformer.")}
     ts = convert_fn(ts)
