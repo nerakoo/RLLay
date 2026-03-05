@@ -34,7 +34,7 @@ import utils.prompts
 import utils.rewards
 from utils.utils import transform_iter_meta, get_meta, annotate_and_save_with_rank, normalize_rewards_to_dict, DummyFuture, PerPromptStatTracker
 # from training_patch.pipeline.sd3_encoder import encode_prompt
-from training_patch.pipeline.sd3_dspo_pipeline_with_logprob import sd3_pipeline_with_logprob
+from training_patch.pipeline.sd3_arpo_pipeline_with_logprob import sd3_pipeline_with_logprob
 from src.models.transformer_sd3_SiamLayout import SiamLayoutSD3Transformer2DModel
 from src.pipeline.pipeline_sd3_CreatiLayout import CreatiLayoutSD3Pipeline
 from training_patch.ema import EMAModuleWrapper
