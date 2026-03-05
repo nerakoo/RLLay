@@ -30,7 +30,6 @@ def call_reward(
     connect_timeout: float = 5.0,
     read_timeout: float = 300.0
 ) -> float:
-    # 如果是 PIL.Image，就先转 Base64
     if isinstance(image, Image.Image):
         image = pil_to_base64(image)
 
