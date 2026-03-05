@@ -1,5 +1,4 @@
 eval "$(path_to_conda_bin/conda shell.bash hook)"
-conda activate creatilayout
 
 export HF_HOME = path_to_hf_cache_dir
 mkdir -p $HF_HOME
