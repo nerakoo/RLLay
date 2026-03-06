@@ -16,9 +16,14 @@
 
 ### Setup
 
-#### Environment setup
+1. **Environment setup**
 ```bash
-conda create -n path_to_env_name python=3.10 -y
-conda activate path_to_env_name
+conda create -n rllay python=3.10 -y
+conda activate rllay
 conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.1 -c pytorch -c nvidia
 ```
+2. **Requirements installation**
+```bash
+pip install -r requirements.txt
+```
+### Usage example
