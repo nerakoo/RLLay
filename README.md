@@ -55,6 +55,8 @@ bash run_sd15_arpo_training.sh
 ```
 Before running, update any path_to_* placeholders in the scripts/configs (e.g., HF_HOME, HF_TOKEN, prompts_json, output_dir, checkpoints).
 
+------
+
 ## Comparisons
 
 ### ARPO vs. related RL-style objectives
