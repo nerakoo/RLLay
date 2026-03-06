@@ -89,6 +89,5 @@ If you find this repository useful, please cite our OpenReview paper:
 ```
 
 ------
-
-This project is released under the Apache License 2.0. See the LICENSE
- file for details.
+## License
+This project is released under the Apache License 2.0. See the LICENSE file for details.
