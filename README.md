@@ -40,6 +40,7 @@ bash run_server.sh
 bash run_sd3_arpo_training.sh
 ```
 or
+
 **Run SD15 + ARPO training (RLLay)**
 ```bash
 bash run_sd15_arpo_training.sh
