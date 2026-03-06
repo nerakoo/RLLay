@@ -54,3 +54,17 @@ or
 bash run_sd15_arpo_training.sh
 ```
 Before running, update any path_to_* placeholders in the scripts/configs (e.g., HF_HOME, HF_TOKEN, prompts_json, output_dir, checkpoints).
+
+## Comparisons
+
+### ARPO vs. related RL-style objectives
+We compare **ARPO** with closely related RL / preference-optimization objectives under the same reward and backbone settings.  
+<p align="center">
+  <img src="assets/figures/RL_compare.png" width="720" alt="ARPO vs. RL-style objectives comparison" />
+</p>
+
+### RLLay-trained backbones vs. other backbones
+We compare **RLLay-trained backbones** against other backbone/model variants on layout fidelity and overall generation quality.  
+<p align="center">
+  <img src="assets/figures/baseline_compare.png" width="720" alt="Backbone/model comparison" />
+</p>
