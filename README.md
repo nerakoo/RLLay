@@ -7,7 +7,7 @@
 **RLLay (Reinforce Your Layouts)** is an online reinforcement learning framework for layout-to-image generation that directly fine-tunes diffusion models to improve consistency between generated images and user-specified layouts. Instead of relying on indirect side guidance, RLLay samples multiple candidates per (prompt, layout), ranks them with an IoU-based layout reward computed from detected boxes (e.g., via GroundingDINO), and forms extreme preference pairs (hard negatives) to strengthen the training signal. We further introduce **ARPO**, a pairwise preference optimization method that uses explicit trajectory log-probabilities to stabilize online learning. Combined with a curriculum from easy to hard layouts, RLLay improves spatial layout fidelity while maintaining semantic alignment and image quality across SD1.5- and SD3-based backbones.
 
 <p align="center">
-  <img src="assets/figures/teaser.png" width="720" alt="RLLay Overview" />
+  <img src="assets/figures/RLLay.png" width="720" alt="RLLay Overview" />
 </p>
 
 ------
