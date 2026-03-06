@@ -12,6 +12,14 @@
 
 ------
 
+## What’s Included 
+
+- **Reward Service (3 reward types):** A lightweight HTTP service for scoring layout-to-image generations, including an IoU-based layout alignment reward (via GroundingDINO) and two additional reward variants exposed under the same service interface for training/evaluation.
+- **Training Pipelines (two backbones):** End-to-end RL fine-tuning for **HiCo (SD1.5-based)** and **CreatiLayout (SD3-based)** layout-to-image backbones. For **CreatiLayout**, we provide both **ARPO** and **GRPO** training recipes, along with ready-to-run launcher scripts.
+- **Evaluation & Utilities:** LoRA-based evaluation scripts for SD3/SD1.5 variants, prompt/layout JSON loaders and preprocessing utilities, optional visualization helpers, and log-probability–enabled diffusion sampling components used by the ARPO/GRPO pipelines.
+
+------
+
 ## Quick Start
 
 ### Setup
