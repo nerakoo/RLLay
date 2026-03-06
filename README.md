@@ -11,3 +11,14 @@
 </p>
 
 ------
+
+## Quick Start
+
+### Setup
+
+#### Environment setup
+```bash
+conda create -n path_to_env_name python=3.10 -y
+conda activate path_to_env_name
+conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=12.1 -c pytorch -c nvidia
+```
