@@ -27,3 +27,16 @@ conda install pytorch==2.4.1 torchvision==0.19.1 torchaudio==2.4.1 pytorch-cuda=
 pip install -r requirements.txt
 ```
 ### Usage example
+
+The workflow has two steps: (1) start the reward service, then (2) launch training.
+
+1. **Start the reward service**
+```bash
+bash run_server.sh
+```
+
+2. **Run SD3 + ARPO training (RLLay)**
+```bash
+bash run_sd3_arpo_training.sh
+```
+Before running, update any path_to_* placeholders in the scripts/configs (e.g., HF_HOME, HF_TOKEN, prompts_json, output_dir, checkpoints).
