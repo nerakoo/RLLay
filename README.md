@@ -1,6 +1,6 @@
 # [ICLR26 Workshop] RLLay: Reinforce Your Layouts — Online RL Fine-tuning for Layout-to-Image Diffusion Models
 
-[![Paper](https://img.shields.io/badge/OpenReview-Forum-4b44ce.svg)](https://openreview.net/forum?id=awfx7eNf5D))
+[![Paper](https://img.shields.io/badge/OpenReview-Forum-4b44ce.svg)](https://openreview.net/forum?id=awfx7eNf5D)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB.svg?logo=python&logoColor=FFD43B)](https://www.python.org/downloads/)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg?logo=apache&logoColor=white)](http://www.apache.org/licenses/LICENSE-2.0)
 
