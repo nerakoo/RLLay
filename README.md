@@ -70,3 +70,25 @@ We compare **RLLay-trained backbones** against other backbone/model variants on 
 <p align="center">
   <img src="assets/figures/baseline_compare.png" width="720" alt="Backbone/model comparison" />
 </p>
+
+------
+
+## Citation
+
+If you find this repository useful, please cite our OpenReview paper:
+
+```bibtex
+@inproceedings{chen2026rllay,
+  title        = {RLLay: Reinforce Your Layouts --- Online RL Fine-tuning for Layout-to-Image Diffusion Models},
+  author       = {Yiwen Chen and collaborators},
+  booktitle    = {ICLR 2026 Workshop on Multimodal Intelligence},
+  year         = {2026},
+  note         = {OpenReview},
+  url          = {https://openreview.net/forum?id=awfx7eNf5D}
+}
+```
+
+------
+
+This project is released under the Apache License 2.0. See the LICENSE
+ file for details.
